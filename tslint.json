@@ -1,0 +1,12 @@
+{
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "quotemark": [true, "single"],
+    "max-line-length": [true, 150],
+    "no-console": [true, "debug", "info", "time", "timeEnd", "trace"],
+    "no-unused-expression": false,
+    "object-literal-sort-keys": false,
+    "no-var-requires": false,
+    "arrow-parens": false
+  }
+}
